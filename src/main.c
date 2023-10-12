@@ -11,7 +11,9 @@ int	main(int argc, char **argv)
 		puts("Usage: ./caesar [key] *a key must be an integer between 1-25*");
 		return (1);
 	}
-	p = get_string();
+	p = NULL;
+	while (!p)
+		p = get_string();
 	printf("ciphertext: ");
 	i = 0;
 	k = atoi(argv[1]);
