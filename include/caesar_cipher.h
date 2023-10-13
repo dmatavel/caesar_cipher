@@ -8,11 +8,23 @@
 # include <readline/readline.h>
 # include <readline/history.h>
 
-/* utils.c */
-int		invalid_key(char *key);
-int		get_lower_alpha_index(int c);
-int		get_upper_alpha_index(int c);
+/* cipher.c */
+void	cipher(void);
+
+/* decipher.c */
+void	decipher(void);
+
+/* rotate.c */
 int		rotate(int c, int k);
-char	*get_string(void);
+
+/* print_title.c*/
+void    print_title(void);
+
+/* get_inputs.c */
+char	*get_string(const char *prompt);
+char	*get_input(const char *prompt);
+
+/* invalid_key.c */
+int		invalid_key(int key);
 
 #endif //CAESAR_CIPHER_H

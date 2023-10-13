@@ -1,30 +1,24 @@
 #include "../include/caesar_cipher.h"
 
-int	main(int argc, char **argv)
+int	main(void)
 {
-	char	*p;
-	int		i;
-	int		k;
+	char	*buffer;
+	int		option;
 
-	if ((argc != 2) || ((invalid_key(argv[1]))))
+	system("clear");
+	print_title();
+	while (1)
 	{
-		puts("Usage: ./caesar [key] *a key must be an integer between 1-25*");
-		return (1);
+		puts("choose one option inserting its number:");
+		buffer = get_input("1) cipher\n2) decipher\n3) quit\n");
+		option = atoi(buffer);
+		if (option == 1)
+			cipher();
+		else if (option == 2)
+			decipher();
+		else if (option == 3)
+			exit(EXIT_SUCCESS);
+		else
+			puts("Option not found.");
 	}
-	p = NULL;
-	while (!p)
-		p = get_string();
-	printf("ciphertext: ");
-	i = 0;
-	k = atoi(argv[1]);
-	while (p[i] != '\0')
-	{
-		p[i] = rotate(p[i], k);
-		printf("%c", p[i]);
-		i++;
-	}
-	printf("\n");
-	free(p);
-	p = NULL;
-	return (0);
 }
