@@ -22,9 +22,12 @@ Go into the program folder and compile the files by running `make`. This will cr
 
 ## 3 **Instructions:**
 
-Run the program with `./caesar_cipher`
+Run the program with `./caesar_cipher`.
+
 Insert a number of a correspondent option:
+
 - 1 to cipher a text;
 - 2 to decipher;
 - 3 to quit the program.
-Both cipher and decipher options will pronpt the user for a text and a key to encrypt or decrypt the text.
+
+Both cipher and decipher options will prompt the user for a text and a key to encrypt or decrypt the text.
