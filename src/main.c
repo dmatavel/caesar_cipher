@@ -1,15 +1,5 @@
 #include "../include/caesar_cipher.h"
 
-void	print_title(void)
-{
-	puts("**********************************");
-	puts("*                                *");
-	puts("*   caesar_cipher, by dmatavel   *");
-	puts("*                                *");
-	puts("**********************************");
-	printf("\n");
-}
-
 int	main(void)
 {
 	char	*buffer;
@@ -20,7 +10,7 @@ int	main(void)
 	while (1)
 	{
 		puts("choose one option inserting its number:");
-		buffer = get_string("1) cipher\n2) decipher\n3) quit\n");
+		buffer = get_input("1) cipher\n2) decipher\n3) quit\n");
 		option = atoi(buffer);
 		if (option == 1)
 			cipher();

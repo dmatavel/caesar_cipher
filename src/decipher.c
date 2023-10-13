@@ -7,11 +7,11 @@ void	decipher(void)
 	int		i;
 	int		key;
 
-	ciphertext = get_string("ciphertext: ");
+	ciphertext = get_input("ciphertext: ");
 	key = 0;
 	while (invalid_key(key))
 	{
-		buffer = get_string("Insert a key between 1-25: ");
+		buffer = get_input("Insert a key between 1-25: ");
 		key = atoi(buffer);
 		free(buffer);
 	}

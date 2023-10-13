@@ -1,7 +1,5 @@
 #include "../include/caesar_cipher.h"
 
-int	rotate(int c, int k);
-
 void	cipher(void)
 {
 	char	*plaintext;
@@ -13,7 +11,7 @@ void	cipher(void)
 	key = 0;
 	while (invalid_key(key))
 	{
-		buffer = get_string("Insert a key between 1-25: ");
+		buffer = get_input("Insert a key between 1 and 25: ");
 		key = atoi(buffer);
 		free(buffer);
 	}
@@ -29,27 +27,4 @@ void	cipher(void)
 	free(plaintext);
 	plaintext = NULL;
 	buffer = NULL;
-}
-
-int	rotate(int c, int k)
-{
-	int	i;
-
-	i = 0;
-	if (isalpha(c))
-	{
-		if (isupper(c))
-		{
-			i = get_upper_alpha_index(c);
-			i = (i + k) % 26;
-			c = i + 65;
-		}
-		else
-		{
-			i = get_lower_alpha_index(c);
-			i = (i + k) % 26;
-			c = i + 97;
-		}
-	}
-	return (c);
 }

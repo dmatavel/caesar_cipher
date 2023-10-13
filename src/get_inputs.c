@@ -16,7 +16,7 @@ char	*get_string(const char *prompt)
 	return (line);
 }
 
-char *get_input(const char *prompt)
+char	*get_input(const char *prompt)
 {
 	char	*str;
 

@@ -10,18 +10,19 @@
 
 /* cipher.c */
 void	cipher(void);
-int		rotate(int c, int k);
 
 /* decipher.c */
 void	decipher(void);
 
+/* rotate.c */
+int		rotate(int c, int k);
+
+/* print_title.c*/
+void    print_title(void);
+
 /* get_inputs.c */
 char	*get_string(const char *prompt);
 char	*get_input(const char *prompt);
-
-/* get_index.c */
-int		get_lower_alpha_index(int c);
-int		get_upper_alpha_index(int c);
 
 /* invalid_key.c */
 int		invalid_key(int key);
