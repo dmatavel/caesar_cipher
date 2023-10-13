@@ -1,5 +1,6 @@
-NAME = caesar_cipher
-SRC	= src/main.c src/utils.c
+NAME =	caesar_cipher
+SRC	=	src/main.c src/cipher.c src/decipher.c src/get_index.c \
+		src/get_inputs.c src/invalid_key.c
 
 OBJ	= $(SRC:.c=.o)
 CC	= gcc
