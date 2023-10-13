@@ -22,6 +22,9 @@ Go into the program folder and compile the files by running `make`. This will cr
 
 ## 3 **Instructions:**
 
-Run the program with `./caesar_cipher [key]`. A [key] must be an integer number between 1 and 25, and it will be used to encrypt the message.
-
-If the key entered is a valid one, the program will ask the user to enter the message to be encrypted, then the message will be processed, encrypted and printed on the screen in its encrypted form.
+Run the program with `./caesar_cipher`
+Insert a number of a correspondent option:
+- 1 to cipher a text;
+- 2 to decipher;
+- 3 to quit the program.
+Both cipher and decipher options will pronpt the user for a text and a key to encrypt or decrypt the text.
