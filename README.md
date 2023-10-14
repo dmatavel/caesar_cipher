@@ -6,7 +6,7 @@ This program encrypts a message using the encryption method known as the [*caesa
 
 ## 2 **Installation:**
 
-*caesar_cipher* uses the [readline()](https://www.man7.org/linux/man-pages/man3/readline.3.html) function to receive user input (the message to be encrypted).
+*caesar_cipher* uses the [readline()](https://www.man7.org/linux/man-pages/man3/readline.3.html) function to receive user input.
 
 To install and use the function package and libraries on a Debiam-based GNU/Linux system (in case it's not installed by default, which it's very unexpected to happen), run the following commands:
   
