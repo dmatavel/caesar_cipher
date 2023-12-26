@@ -49,7 +49,7 @@ Report bugs sending an email for matavelidanilo@gmail.com or opening an issue on
 
 ## Supported OSs
 
-file_editor was developed and tested in a GNU/Linux Debian based system (Ubuntu 22.04 LTS). 
+caesar_cipher was developed and tested in a GNU/Linux Debian based system (Ubuntu 22.04 LTS). 
 
 ## CS50 students
 
