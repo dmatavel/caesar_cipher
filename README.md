@@ -53,7 +53,7 @@ file_editor was developed and tested in a GNU/Linux Debian based system (Ubuntu 
 
 ## CS50 students
 
-caesar_cipher was primmer developed as an exercise for CS50: Introduction to Computer Science course. If you are a student at CS50: Introduction to Computer Science, please be aware that this project may have been modified in relation to the project that was submitted for evaluation during the course. You can take it as a reference for your studies, but not as a parameter for correcting your project.
+caesar_cipher was first developed as an exercise for CS50: Introduction to Computer Science course. If you are a student at CS50: Introduction to Computer Science, please be aware that this project may have been modified in relation to the project that was submitted for evaluation during the course. You can take it as a reference for your studies, but not as a parameter for correcting your project.
 
 ## License
 
