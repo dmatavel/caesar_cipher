@@ -19,7 +19,7 @@ You can download the source code [here](https://github.com/dmatavel/caesar_ciphe
 
 Alternatively, you can clone this repository in your machine. Simple copy and paste or write the following command in your terminal:
 
-    cd ~/Downloads/ &&`git clone https://github.com/dmatavel/caesar_cipher.git`
+    cd ~/Downloads/ && git clone https://github.com/dmatavel/caesar_cipher.git
 
 It assumes that you have [Git](https://git-scm.com/) installed and a **Downloads** folder in your **Home** directory. If you face any error, check this requirements.
 
@@ -39,7 +39,7 @@ If you downloaded the zip file, extract it and enter the **caesar_cipher-main** 
 
     make caesar_cipher
 
-It is expected that an executable named **caesar_cipher** to be created. After that, run the program with:
+An executable named **caesar_cipher** will be created. After that, run the program with:
 
     ./caesar_cipher
 
