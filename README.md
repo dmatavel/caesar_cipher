@@ -11,7 +11,7 @@ caesar_cipher - encrypt a text like a Caesar.
 
 ## Description
 
-caesar_cipher encrypts or decrypts a string using the encryption algorithm [*caesar cipher*](https://en.wikipedia.org/wiki/Caesar_cipher). After execution, the program displays its **options**: 1) **cipher**: prompts the user for a plaintext a cipher **key** to encrypt it; 2) **decipher**: prompts the user for a encrypted text to be decrypted and the corresponding **key**; 3) **quit**: exit the program.
+caesar_cipher encrypts or decrypts a string using the encryption algorithm [*caesar cipher*](https://en.wikipedia.org/wiki/Caesar_cipher). After execution, the program displays its **options**: 1) **cipher**: prompts the user for a plaintext and a cipher **key** to encrypt it; 2) **decipher**: prompts the user for a encrypted text to be decrypted and the corresponding **key**; 3) **quit**: exit the program.
 
 ## **Download**
 
